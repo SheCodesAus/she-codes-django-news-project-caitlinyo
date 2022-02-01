@@ -12,8 +12,10 @@
       href="https://fonts.googleapis.com/css?family=Manjari&display=swap"
       rel="stylesheet"
     />
+
+    {% block stylesheets %}
     <link rel="stylesheet" type="text/css" href="{%static 'styles.css' %}" />
-    {% block stylesheets %}{% endblock %}
+    {% endblock %}
   </head>
 
   <body>
@@ -24,6 +26,7 @@
         </a>
       </div>
       <!-- include nav here -->
+      {% include './nav.html' %}
     </header>
 
     <!-- content blocks here -->
