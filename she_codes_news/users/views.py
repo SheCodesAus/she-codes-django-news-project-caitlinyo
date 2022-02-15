@@ -8,6 +8,8 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView
 from django.views import generic
+
+from news.forms import StoryForm
 from .models import CustomUser
 from .forms import CustomUserCreationForm
 
@@ -35,3 +37,4 @@ class ProfileView(LoginRequiredMixin, DetailView):
         context['latest_stories'] = NewsStory.objects.all()[:4]
         context['all_stories'] = NewsStory.objects.all()
         return context
+
