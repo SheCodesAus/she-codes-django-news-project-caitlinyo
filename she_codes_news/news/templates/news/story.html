@@ -4,6 +4,8 @@
 <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}" />
 {% endblock %}
 
+{% block content %}
+
 <div id="story-wrapper">
   <h2>{{ story.title }}</h2>
   <h4> <a href="{% url 'users:profile' story.author.id %}">{{ story.author }}</a></h4>
