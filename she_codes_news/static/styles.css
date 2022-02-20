@@ -4,9 +4,7 @@ body {
     background-color: #9F33FF;
     }
 
-body {
-    background-color: rgb(240, 239, 239);
-}
+
 
 header {
     display: flex;
@@ -17,7 +15,7 @@ header {
 
 img {
     filter: grayscale(100%);
-} */
+} 
 
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
