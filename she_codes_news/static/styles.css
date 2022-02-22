@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
 body {
-    background-color: rgb(240, 239, 239);
-}
+    background-color: #9F33FF;
+    }
+
+
 
 header {
     display: flex;
@@ -11,9 +13,9 @@ header {
     border-bottom: 1px solid #000;
 }
 
-img {
+/* img {
     filter: grayscale(100%);
-}
+}  */
 
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -52,3 +54,5 @@ a {
 a, p {
     font-family: monospace;
 }
+
+.story-card img { max-width: 600px; }
